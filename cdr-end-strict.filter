@@ -943,7 +943,7 @@ Show # $type->uncutgem $level->19
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Triangle
 
@@ -954,7 +954,7 @@ Show # $type->uncutgem $level->19
 	# SetFontSize 45
 	# SetTextColor 30 190 190 255
 	# SetBorderColor 30 190 190 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect White
 	# MinimapIcon 1 White Triangle
 
@@ -965,7 +965,7 @@ Show # $type->uncutgem $level->19
 	# SetFontSize 45
 	# SetTextColor 30 190 190 255
 	# SetBorderColor 30 190 190 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect White
 	# MinimapIcon 1 White Triangle
 
@@ -976,7 +976,7 @@ Show # $type->uncutgem $level->19
 	# SetFontSize 45
 	# SetTextColor 30 190 190 255
 	# SetBorderColor 30 190 190 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect White
 	# MinimapIcon 1 White Triangle
 
@@ -987,7 +987,7 @@ Show # $type->uncutgem $level->19
 	# SetFontSize 45
 	# SetTextColor 30 190 190 255
 	# SetBorderColor 30 190 190 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect White
 	# MinimapIcon 1 White Triangle
 
@@ -1023,7 +1023,7 @@ Show # $type->currency->soulcore $tier->t2
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 1 300
+	PlayAlertSound 16 300
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
@@ -1034,7 +1034,7 @@ Show # $type->currency->soulcore $tier->t3
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Circle
 
@@ -1045,7 +1045,7 @@ Hide # %H5 $type->currency->soulcore $tier->t4
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect White
 	MinimapIcon 2 White Circle
 
@@ -1056,7 +1056,7 @@ Hide # %H5 $type->currency->soulcore $tier->t4
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 210 178 135 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect Grey
 	# MinimapIcon 2 Grey Circle
 
@@ -1118,7 +1118,7 @@ Show # $type->Waystones $tier->deco_zone1general
 	WaystoneTier >= 15
 	Class == "Waystones"
 	SetBorderColor 0 0 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # $type->Waystones $tier->deco_zone2general
@@ -1126,7 +1126,7 @@ Show # $type->Waystones $tier->deco_zone2general
 	WaystoneTier <= 14
 	Class == "Waystones"
 	SetBorderColor 0 0 0 255
-	PlayAlertSound 4 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # $type->Waystones $tier->deco_zone3general
@@ -1134,7 +1134,7 @@ Show # $type->Waystones $tier->deco_zone3general
 	WaystoneTier <= 10
 	Class == "Waystones"
 	SetBorderColor 200 200 200 255
-	PlayAlertSound 4 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # $type->Waystones $tier->deco_zone4general
@@ -1142,7 +1142,7 @@ Show # $type->Waystones $tier->deco_zone4general
 	WaystoneTier <= 5
 	Class == "Waystones"
 	SetBorderColor 200 200 200 255
-	PlayAlertSound 4 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # $type->Waystones $tier->deco_waystoneup_t16
@@ -1150,7 +1150,7 @@ Show # $type->Waystones $tier->deco_waystoneup_t16
 	Class == "Waystones"
 	AreaLevel < 80
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # $type->Waystones $tier->deco_waystoneup_t15
@@ -1158,7 +1158,7 @@ Show # $type->Waystones $tier->deco_waystoneup_t15
 	Class == "Waystones"
 	AreaLevel < 79
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # $type->Waystones $tier->deco_waystoneup_t14
@@ -1166,7 +1166,7 @@ Show # $type->Waystones $tier->deco_waystoneup_t14
 	Class == "Waystones"
 	AreaLevel < 78
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D4 $type->Waystones $tier->deco_waystoneup_t13
@@ -1174,7 +1174,7 @@ Show # %D4 $type->Waystones $tier->deco_waystoneup_t13
 	Class == "Waystones"
 	AreaLevel < 77
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D4 $type->Waystones $tier->deco_waystoneup_t12
@@ -1182,7 +1182,7 @@ Show # %D4 $type->Waystones $tier->deco_waystoneup_t12
 	Class == "Waystones"
 	AreaLevel < 76
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D4 $type->Waystones $tier->deco_waystoneup_t11
@@ -1190,7 +1190,7 @@ Show # %D4 $type->Waystones $tier->deco_waystoneup_t11
 	Class == "Waystones"
 	AreaLevel < 75
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t10
@@ -1198,7 +1198,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t10
 	Class == "Waystones"
 	AreaLevel < 74
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t9
@@ -1206,7 +1206,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t9
 	Class == "Waystones"
 	AreaLevel < 73
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t8
@@ -1214,7 +1214,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t8
 	Class == "Waystones"
 	AreaLevel < 72
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t7
@@ -1222,7 +1222,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t7
 	Class == "Waystones"
 	AreaLevel < 71
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t6
@@ -1230,7 +1230,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t6
 	Class == "Waystones"
 	AreaLevel < 70
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t5
@@ -1238,7 +1238,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t5
 	Class == "Waystones"
 	AreaLevel < 69
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t4
@@ -1246,7 +1246,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t4
 	Class == "Waystones"
 	AreaLevel < 68
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t3
@@ -1254,7 +1254,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t3
 	Class == "Waystones"
 	AreaLevel < 67
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t2
@@ -1262,7 +1262,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t2
 	Class == "Waystones"
 	AreaLevel < 66
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # %D3 $type->Waystones $tier->deco_waystoneup_t1
@@ -1270,7 +1270,7 @@ Show # %D3 $type->Waystones $tier->deco_waystoneup_t1
 	Class == "Waystones"
 	AreaLevel < 65
 	SetBorderColor 220 50 0 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	Continue
 
 Show # $type->Waystones $tier->deco_corruptedmod
@@ -1289,7 +1289,7 @@ Show # $type->waystones $tier->waystones_a_t16
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBackgroundColor 235 235 235 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	PlayEffect Red
 	MinimapIcon 0 Red Square
 
@@ -1299,7 +1299,7 @@ Show # $type->waystones $tier->waystones_a_t15
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBackgroundColor 235 235 235 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
@@ -1446,7 +1446,7 @@ Hide # $type->waystones $tier->lowtier
 	SetFontSize 40
 	SetTextColor 255 255 255 255
 	SetBackgroundColor 20 20 0 255
-	PlayAlertSound 4 0
+	PlayAlertSound 14 0
 
 Show # $type->waystones $tier->restex
 	Class == "Waystones"
@@ -1468,7 +1468,7 @@ Show # expedition logbook
 	SetTextColor 255 85 85 255
 	SetBorderColor 255 85 85 255
 	SetBackgroundColor 40 0 30 255
-	PlayAlertSound 5 300
+	PlayAlertSound 14 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow UpsideDownHouse
 	
@@ -1510,7 +1510,7 @@ Show # Djinn Barya 4 trials i80
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Circle
 
@@ -1541,7 +1541,7 @@ Show # Inscribed Ultimatum 10 trials i80
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Circle
 
@@ -1586,7 +1586,7 @@ Show # Inscribed Ultimatum any
 	# SetTextColor 255 255 255 255
 	# SetBorderColor 255 255 255 255
 	# SetBackgroundColor 180 0 255 255
-	# PlayAlertSound 1 300
+	# PlayAlertSound 16 300
 	# PlayEffect Red
 	# MinimapIcon 0 Red Hexagon
 
@@ -1597,7 +1597,7 @@ Show # $type->fragments->tablets $tier->t3
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 180 0 255 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Hexagon
 
@@ -1633,7 +1633,7 @@ Show # $type->fragments $tier->t1
 	# SetTextColor 255 255 255 255
 	# SetBorderColor 255 255 255 255
 	# SetBackgroundColor 180 0 255 255
-	# PlayAlertSound 1 300
+	# PlayAlertSound 16 300
 	# PlayEffect Red
 	# MinimapIcon 0 Red Hexagon
 
@@ -1644,7 +1644,7 @@ Show # $type->fragments $tier->t1
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 175 120 230 240
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect White
 	# MinimapIcon 2 White Hexagon
 
@@ -1691,7 +1691,7 @@ Show # %D8 $type->currency->stackedsix $tier->t2
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 1 300
+	PlayAlertSound 16 300
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
@@ -1703,7 +1703,7 @@ Show # $type->currency->stacked $tier->t3
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Circle
 
@@ -1715,7 +1715,7 @@ Show # $type->currency->stacked $tier->t4
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect White
 	MinimapIcon 2 White Circle
 
@@ -1749,7 +1749,7 @@ Show # $type->currency $tier->t2divine
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 1 300
+	PlayAlertSound 16 300
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
@@ -1760,7 +1760,7 @@ Show # $type->currency $tier->t3annul
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Circle
 
@@ -1771,7 +1771,7 @@ Show # $type->currency $tier->t4exalt
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 2 Yellow Circle
 
@@ -1855,7 +1855,7 @@ Show # $type->currency->distilled $tier->t2
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 1 300
+	PlayAlertSound 16 300
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
@@ -1866,7 +1866,7 @@ Show # $type->currency->distilled $tier->t2
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 240 90 35 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect Yellow
 	# MinimapIcon 1 Yellow Circle
 
@@ -1877,7 +1877,7 @@ Show # $type->currency->distilled $tier->t2
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 249 150 25 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect White
 	# MinimapIcon 2 White Circle
 
@@ -1888,7 +1888,7 @@ Hide # %HS3 $type->currency->distilled $tier->t5
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
 
@@ -1899,7 +1899,7 @@ Hide # %HS3 $type->currency->distilled $tier->t5
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 210 178 135 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect Grey
 	# MinimapIcon 2 Grey Circle
 
@@ -1986,7 +1986,7 @@ Show # $type->keys $tier->restex
 	# SetTextColor 255 255 255 255
 	# SetBorderColor 255 255 255 255
 	# SetBackgroundColor 240 90 35 255
-	# PlayAlertSound 1 300
+	# PlayAlertSound 16 300
 	# PlayEffect Red
 	# MinimapIcon 0 Red Circle
 
@@ -1997,7 +1997,7 @@ Show # $type->keys $tier->restex
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 240 90 35 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect Yellow
 	# MinimapIcon 1 Yellow Circle
 
@@ -2008,7 +2008,7 @@ Show # $type->keys $tier->restex
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 249 150 25 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect White
 	# MinimapIcon 2 White Circle
 
@@ -2027,7 +2027,7 @@ Show # %HS3 $type->currency->catalyst $tier->t5
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 210 178 135 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect Grey
 	# MinimapIcon 2 Grey Circle
 
@@ -2088,7 +2088,7 @@ Show # $type->currency->essence $tier->t2
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 1 300
+	PlayAlertSound 16 300
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
@@ -2099,7 +2099,7 @@ Show # %HS5 $type->currency->essence $tier->t3
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Circle
 
@@ -2110,7 +2110,7 @@ Show # %HS4 $type->currency->essence$tier->t4
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect White
 	MinimapIcon 2 White Circle
 	
@@ -2129,7 +2129,7 @@ Hide # %HS3 $type->currency->catalyst $tier->t6
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
 
@@ -2190,7 +2190,7 @@ Show # $type->currency->trial->omen $tier->t2
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 1 300
+	PlayAlertSound 16 300
 	PlayEffect Red
 	MinimapIcon 0 Red Circle
 
@@ -2201,7 +2201,7 @@ Show # $type->currency->trial->omen $tier->t3
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Circle
 
@@ -2212,7 +2212,7 @@ Show # %H5 $type->currency->trial->omen $tier->t4
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect White
 	MinimapIcon 2 White Circle
 
@@ -2223,7 +2223,7 @@ Show # %H5 $type->currency->trial->omen $tier->t4
 	# SetTextColor 0 0 0 255
 	# SetBorderColor 0 0 0 255
 	# SetBackgroundColor 210 178 135 255
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect Grey
 	# MinimapIcon 2 Grey Circle
 
@@ -2253,7 +2253,7 @@ Show # %D6 $type->currency->stackedsplintershigh $tier->10
 	SetTextColor 0 0 0 255
 	SetBorderColor 210 20 210 255
 	SetBackgroundColor 240 90 35 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Kite
 
@@ -2265,7 +2265,7 @@ Show # %DS5 $type->currency->stackedsplintershigh $tier->5
 	SetTextColor 0 0 0 255
 	SetBorderColor 210 20 210 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect Purple
 	MinimapIcon 2 Purple Kite
 
@@ -2277,7 +2277,7 @@ Show # %DS4 $type->currency->stackedsplintershigh $tier->2
 	SetTextColor 0 0 0 255
 	SetBorderColor 210 20 210 255
 	SetBackgroundColor 249 150 25 255
-	PlayAlertSound 2 300
+	PlayAlertSound 12 300
 	PlayEffect White
 	MinimapIcon 2 Purple Kite
 	
@@ -2292,7 +2292,7 @@ Show # %DS4 $type->currency->stackedsplintershigh $tier->2
 	# SetTextColor 255 255 255 255
 	# SetBorderColor 210 20 210 255
 	# SetBackgroundColor 65 20 80
-	# PlayAlertSound 2 300
+	# PlayAlertSound 12 300
 	# PlayEffect Purple Temp
 	# MinimapIcon 1 Purple Kite
 
@@ -2352,7 +2352,7 @@ Show # $type->uniques $tier->t2
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 175 96 37 255
-	PlayAlertSound 1 300
+	PlayAlertSound 16 300
 	PlayEffect Red
 	MinimapIcon 0 Yellow Star
 
